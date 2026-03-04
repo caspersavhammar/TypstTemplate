@@ -1,0 +1,33 @@
+#import "template.typ": *
+
+#show: project.with(
+  course: "Kursnamn: Beskrivning",
+  title: "Titel",
+
+  authors: (
+    (name: "Casper Sävhammar", email: "casav929@student.liu.se"),
+  ),
+
+  table_of_c: true,
+
+  term: "Vårterminen 2026",
+  version: "1.0",
+  date: "2026-02-25",
+)
+
+
+
+= Revisionshistorik
+#table(
+  columns: (5.5em, 1fr, 5.5em),
+  inset: 4pt,
+  stroke: 0.5pt,
+  [*Version*], [*Revisionsbeskrivning*], [*Datum*],
+  [1.0], [Första utkast], [2026-02-25],
+)
+
+= Introduktion
+#lorem(50)
+
+= Exempel
+#lorem(50)
