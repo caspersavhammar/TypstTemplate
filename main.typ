@@ -10,9 +10,9 @@
 
   table_of_c: true,
 
-  term: "Vårterminen 2026",
+  term: "Höstterminen 2020",
   version: "1.0",
-  date: "2026-02-25",
+  date: "2020-01-01",
 )
 
 
