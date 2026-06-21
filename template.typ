@@ -16,7 +16,7 @@
   set document(author: authors.map(a => a.name), title: title)
 
   // Set default font and language for text
-  set text(font: "New Computer Modern", lang: "sv")
+  set text(font: "New Computer Modern", lang: "en")
 
   // Set page-numbering to current / total in footer
   set page(numbering: "1 / 1", number-align: end, paper: "a4")
@@ -60,7 +60,7 @@
       #v(2em, weak: true)
 
       // Authors
-      #text(1em, "Författare")
+      #text(1em, "Authors")
       #grid(columns: 1fr, gutter: 1em, ..authors.map(author => align(center)[
           #text([*#author.name*, #author.email], size: 0.8em)
         ]))

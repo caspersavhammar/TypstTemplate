@@ -1,16 +1,16 @@
 #import "template.typ": *
 
 #show: project.with(
-  course: "Kursnamn: Beskrivning",
-  title: "Titel",
+  course: "Coursename: Deskription", // Often found on the course website
+  title: "Title",
 
   authors: (
-    (name: "Förnamn Efternamn", email: "liuid123@student.liu.se"),
+    (name: "Name Surname", email: "liuid123@student.liu.se"),
   ),
 
   table_of_contents: true,
 
-  term: "Höstterminen 2020",
+  term: "Fall semester 2020",
   version: "1.0",
   date: "2020-01-01",
 )
@@ -23,11 +23,11 @@
   inset: 4pt,
   stroke: 0.5pt,
   [*Version*], [*Revisionsbeskrivning*], [*Datum*],
-  [1.0], [Första utkast], [2026-02-25],
+  [1.0], [First draft], [2020-01-01],
 )
 
-= Introduktion
+= Introduction
 #lorem(50)
 
-= Exempel
+= Example
 #lorem(50)
