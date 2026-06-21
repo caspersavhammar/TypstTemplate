@@ -10,4 +10,4 @@ An example of how it looks is shown in example.pdf.
 It was originally created by Mattias Ajander and is currently maintained by me
 and my friends.
 
-Free To use for everyone.
+Free to use for everyone.
