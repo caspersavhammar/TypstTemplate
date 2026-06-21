@@ -1,7 +1,7 @@
 #import "template.typ": *
 
 #show: project.with(
-  course: "Kursnamn: Beskrivning",
+  course: "Kursnamn: Beskrivning", // Går ofta att hitta på kurssidan
   title: "Titel",
 
   authors: (
@@ -23,7 +23,7 @@
   inset: 4pt,
   stroke: 0.5pt,
   [*Version*], [*Revisionsbeskrivning*], [*Datum*],
-  [1.0], [Första utkast], [2026-02-25],
+  [1.0], [Första utkast], [2020-01-01],
 )
 
 = Introduktion
