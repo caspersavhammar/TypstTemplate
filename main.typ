@@ -5,10 +5,10 @@
   title: "Titel",
 
   authors: (
-    (name: "Casper Sävhammar", email: "casav929@student.liu.se"),
+    (name: "Förnamn Efternamn", email: "liuid123@student.liu.se"),
   ),
 
-  table_of_c: true,
+  table_of_contents: true,
 
   term: "Höstterminen 2020",
   version: "1.0",

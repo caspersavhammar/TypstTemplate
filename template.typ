@@ -2,7 +2,7 @@
   course: "",
   title: "",
   authors: (),
-  table_of_c: false,
+  table_of_contents: false,
   term: "",
   version: "1.0",
   date: "",
@@ -92,7 +92,7 @@
   //  TABLE OF CONTENTS
   //
 
-  if (table_of_c) {
+  if (table_of_contents) {
     outline(depth: 3, indent: auto)
     pagebreak()
   }
